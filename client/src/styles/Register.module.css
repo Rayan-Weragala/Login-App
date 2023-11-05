@@ -1,0 +1,109 @@
+/* Register.module.css */
+
+/* Container styles */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f2f2f2;
+  }
+  
+  /* Form wrapper styles */
+  .formWrapper {
+    width: 45%;
+    padding: 3em 2em;
+  }
+  
+  /* Glass panel styles */
+  .glass {
+    background: rgba(255, 255, 255, 0.15);
+    padding: 2em;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Title styles */
+  .titleText {
+    font-size: 2.5rem;
+    font-weight: bold;
+    text-align: center;
+    color: #333;
+  }
+  
+  .subtitle {
+    padding: 1rem 0;
+    font-size: 1.2rem;
+    color: #666;
+    text-align: center;
+  }
+  
+  /* Profile image styles */
+  .profile {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem 0;
+  }
+  
+  .profileImg {
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+  
+  /* Input styles */
+  .inputGroup {
+    display: flex;
+    gap: 1rem;
+  }
+  
+  .input {
+    width: 100%;
+    padding: 0.5rem;
+    margin: 0.5rem 0;
+    border: 1px solid black;
+    border-radius: 5px;
+    font-size: 1rem;
+  }
+  
+  /* Button styles */
+  .btn {
+    width: 100%;
+    padding: 0.5rem;
+    margin: 1rem 0;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    cursor: pointer;
+  }
+  
+  .btn:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Login link styles */
+  .loginLink {
+    text-align: center;
+    margin-top: 1rem;
+  }
+  
+  .loginText {
+    font-size: 1rem;
+    color: #333;
+  }
+  
+  .loginBtn {
+    color: #007bff;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .loginBtn:hover {
+    text-decoration: underline;
+  }
+  
